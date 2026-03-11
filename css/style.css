@@ -61,7 +61,10 @@ main {
   flex: 1;
   min-width: 0;
   text-align: center;
-  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
 }
 .hero-info h1 {
   font-size: 1.6rem;
@@ -80,6 +83,12 @@ main {
   font-size: 0.95rem;
   color: #444;
   line-height: 1.65;
+}
+.hero-info p.hero-address {
+  margin-top: 1.5rem;
+}
+.hero-info p.hero-contact {
+  margin-top: 1.5rem;
 }
 .hero-info a { color: #1a5276; }
 .hero-address {
