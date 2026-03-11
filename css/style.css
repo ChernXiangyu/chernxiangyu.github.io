@@ -80,6 +80,9 @@ main {
   line-height: 1.65;
 }
 .hero-info a { color: #1a5276; }
+.hero-contact {
+  margin-top: 1rem;
+}
 
 .hero-bio {
   font-size: 0.95rem;
