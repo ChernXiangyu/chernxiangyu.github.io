@@ -240,6 +240,29 @@ footer {
 .back-link { font-size: 0.9rem; margin-bottom: 2rem; display: inline-block; }
 .page-title { font-size: 1.5rem; margin-bottom: 2rem; }
 
+/* Meme gallery */
+.meme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+.meme-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  border: 1px solid #eee;
+  transition: transform 0.15s;
+}
+.meme-item img:hover {
+  transform: scale(1.02);
+}
+.meme-empty {
+  color: #999;
+  font-size: 0.9rem;
+  grid-column: 1 / -1;
+}
+
 /* Responsive */
 @media (max-width: 640px) {
   .hero {
