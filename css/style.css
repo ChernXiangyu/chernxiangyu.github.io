@@ -13,25 +13,24 @@ a:hover { text-decoration: underline; }
 
 /* Header */
 .site-header {
-  max-width: 90rem;
-  margin: 0 auto;
   padding: 1.25rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #222;
+  background: #222;
 }
 .site-title {
   font-weight: 700;
   font-size: 1.1rem;
-  color: #222;
+  color: #fff;
 }
-.site-title:hover { text-decoration: none; }
+.site-title:hover { text-decoration: none; color: #fff; }
 .site-nav a {
   font-size: 0.95rem;
-  color: #222;
+  color: #fff;
   margin-left: 1.5rem;
 }
+.site-nav a:hover { color: #ccc; }
 
 /* Main */
 main {
