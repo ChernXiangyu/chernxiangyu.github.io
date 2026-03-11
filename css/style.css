@@ -49,7 +49,7 @@ main {
 }
 .hero-photo {
   flex-shrink: 0;
-  width: 240px;
+  width: 320px;
 }
 .hero-photo img {
   width: 100%;
@@ -79,6 +79,14 @@ main {
   line-height: 1.65;
 }
 .hero-info a { color: #1a5276; }
+
+.hero-bio {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.7;
+  margin: 1.5rem 0 0 0;
+}
+.hero-bio a { color: #1a5276; }
 
 .divider {
   border: none;
@@ -189,7 +197,7 @@ footer {
     align-items: center;
     text-align: center;
   }
-  .hero-photo { width: 180px; }
+  .hero-photo { width: 220px; }
   .site-header { padding: 1rem 1.25rem; }
   main { padding: 1.5rem 1.25rem 2rem; }
 }
