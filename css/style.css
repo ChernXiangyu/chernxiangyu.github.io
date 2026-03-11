@@ -49,7 +49,7 @@ main {
 }
 .hero-photo {
   flex-shrink: 0;
-  width: 600px;
+  width: 700px;
 }
 .hero-photo img {
   width: 100%;
