@@ -13,7 +13,7 @@ a:hover { text-decoration: underline; }
 
 /* Header */
 .site-header {
-  max-width: 52rem;
+  max-width: 64rem;
   margin: 0 auto;
   padding: 1.25rem 2rem;
   display: flex;
@@ -35,7 +35,7 @@ a:hover { text-decoration: underline; }
 
 /* Main */
 main {
-  max-width: 52rem;
+  max-width: 64rem;
   margin: 0 auto;
   padding: 2rem 2rem 3rem;
 }
@@ -56,6 +56,10 @@ main {
   height: auto;
   border-radius: 3px;
   display: block;
+}
+.hero-info {
+  flex: 1;
+  min-width: 0;
 }
 .hero-info h1 {
   font-size: 1.6rem;
@@ -147,7 +151,7 @@ main {
 
 /* Footer */
 footer {
-  max-width: 52rem;
+  max-width: 64rem;
   margin: 0 auto;
   text-align: center;
   padding: 1.5rem 2rem;
