@@ -60,10 +60,8 @@ main {
 .hero-info {
   flex: 1;
   min-width: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-self: stretch;
+  text-align: center;
+  padding-top: 1rem;
 }
 .hero-info h1 {
   font-size: 1.6rem;
