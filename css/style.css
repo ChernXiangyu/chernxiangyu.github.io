@@ -61,10 +61,7 @@ main {
   flex: 1;
   min-width: 0;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-self: stretch;
+  padding-top: 1rem;
 }
 .hero-info h1 {
   font-size: 1.6rem;
@@ -86,6 +83,9 @@ main {
 }
 .hero-info p.hero-address {
   margin-top: 1.5rem;
+}
+.hero-info p.hero-address-2 {
+  margin-top: 1.2rem;
 }
 .hero-info p.hero-contact {
   margin-top: 1.5rem;
