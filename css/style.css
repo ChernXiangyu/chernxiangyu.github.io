@@ -103,6 +103,9 @@ main {
   line-height: 1.7;
   margin: 1.5rem 0 0 0;
 }
+.hero-bio + .hero-bio {
+  margin-top: 0.5rem;
+}
 .hero-bio a { color: #1a5276; }
 
 .divider {
