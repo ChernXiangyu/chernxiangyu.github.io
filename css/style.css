@@ -71,6 +71,7 @@ main {
   font-weight: 400;
   font-size: 1.3rem;
   color: #555;
+  font-family: "Songti SC", "SimSun", "Noto Serif CJK SC", serif;
 }
 .hero-info p {
   margin: 0;
