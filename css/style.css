@@ -192,6 +192,10 @@ footer {
 .article-entry strong { font-weight: 600; }
 .article-entry em { font-style: italic; }
 
+.article-cn {
+  font-family: "Songti SC", "SimSun", "Noto Serif CJK SC", serif;
+}
+
 .back-link { font-size: 0.9rem; margin-bottom: 2rem; display: inline-block; }
 .page-title { font-size: 1.5rem; margin-bottom: 2rem; }
 
