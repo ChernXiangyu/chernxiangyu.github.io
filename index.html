@@ -93,6 +93,18 @@
         <p class="paper-abstract-inline">A Python library for entity matching via dense embeddings and cross-encoder reranking. A bi-encoder retrieves the top-K candidates for each entity across millions of records, a cross-encoder then rescores those pairs with full cross-attention, and the search window widens automatically when an entity's candidates all score high. This captures semantic matches that token-based methods like TF-IDF miss, without hand-built alias tables.</p>
         <p><a href="https://github.com/ChernXiangyu/Tessera" target="_blank" rel="noopener">GitHub →</a></p>
       </article>
+
+      <article class="paper">
+        <h3 class="paper-title">overleaf-git</h3>
+        <p class="paper-abstract-inline">A Claude Code skill for working with Overleaf projects through git. It covers token authentication, the pull–regenerate–push loop for papers whose tables and figures come from a code pipeline, and the traps that destroy coauthors' comments, such as renaming files or pushing prose from git.</p>
+        <p><a href="https://github.com/ChernXiangyu/overleaf-git-skill" target="_blank" rel="noopener">GitHub →</a></p>
+      </article>
+
+      <article class="paper">
+        <h3 class="paper-title">Booth Computing Cluster Skills</h3>
+        <p class="paper-abstract-inline">Claude Code skills for Chicago Booth's Mercury and Pythia HPC clusters. They give Claude the cluster-specific commands, SLURM partitions, GPU options, storage rules, and quotas it would otherwise have to guess at.</p>
+        <p><a href="https://github.com/ChernXiangyu/booth-computing-cluster-skills" target="_blank" rel="noopener">GitHub →</a></p>
+      </article>
     </section>
 
     <section class="research-section">
@@ -101,6 +113,7 @@
       <article class="paper">
         <h3 class="paper-title"><a href="https://conference.nber.org/conf_papers/f205530/f205530.pdf" target="_blank" rel="noopener">Lookahead Bias in Pretrained Language Models</a></h3>
         <p class="paper-authors">Suproteem K. Sarkar (Chicago Booth) and Keyon Vafa (Harvard)</p>
+        <p class="paper-note">My role: Wrote much of the replication code, including fill-mask tests for lookahead bias, DuckDB pipelines tracking when terms first appear across text corpora, LLM batch pipelines testing whether models can predict earnings and stock returns from news, and entity de-identification experiments.</p>
         <details class="paper-details">
           <summary>Abstract</summary>
           <p>Empirical analysis that uses outputs from pretrained language models can be subject to a form of temporal lookahead bias. This bias arises when a language model's pretraining data contains information about the future, which then leaks into analysis that should only use information from the past. In this paper we develop direct tests for lookahead bias, based on the assumption that some events are unpredictable given a prespecified information set. Using these tests, we find evidence of lookahead bias in two applications of language models to social science: Predicting risk factors from corporate earnings calls and predicting election winners from candidate biographies. We additionally discuss the limitations of prompting-based approaches to counteract this bias. The issues we raise can be addressed by using models whose pretraining data is free of survivorship bias and contains only language produced prior to the analysis period of interest.</p>
